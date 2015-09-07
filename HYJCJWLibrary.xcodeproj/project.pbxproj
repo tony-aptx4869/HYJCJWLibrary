@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBB3A0621B9D72A30059CED2 /* HYJCJWLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBB3A0611B9D72A30059CED2 /* HYJCJWLibrary.h */; };
+		FBB3A0641B9D72A30059CED2 /* HYJCJWLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB3A0631B9D72A30059CED2 /* HYJCJWLibrary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBB3A05C1B9D72A30059CED2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = header;
+			dstSubfolderSpec = 16;
+			files = (
+				FBB3A0621B9D72A30059CED2 /* HYJCJWLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBB3A05E1B9D72A30059CED2 /* libHYJCJWLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHYJCJWLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB3A0611B9D72A30059CED2 /* HYJCJWLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYJCJWLibrary.h; sourceTree = "<group>"; };
+		FBB3A0631B9D72A30059CED2 /* HYJCJWLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYJCJWLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB3A05B1B9D72A30059CED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBB3A0551B9D72A30059CED2 = {
+			isa = PBXGroup;
+			children = (
+				FBB3A0601B9D72A30059CED2 /* HYJCJWLibrary */,
+				FBB3A05F1B9D72A30059CED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB3A05F1B9D72A30059CED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB3A05E1B9D72A30059CED2 /* libHYJCJWLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB3A0601B9D72A30059CED2 /* HYJCJWLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				FBB3A0611B9D72A30059CED2 /* HYJCJWLibrary.h */,
+				FBB3A0631B9D72A30059CED2 /* HYJCJWLibrary.m */,
+			);
+			path = HYJCJWLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB3A05D1B9D72A30059CED2 /* HYJCJWLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB3A0671B9D72A30059CED2 /* Build configuration list for PBXNativeTarget "HYJCJWLibrary" */;
+			buildPhases = (
+				FBB3A05A1B9D72A30059CED2 /* Sources */,
+				FBB3A05B1B9D72A30059CED2 /* Frameworks */,
+				FBB3A05C1B9D72A30059CED2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYJCJWLibrary;
+			productName = HYJCJWLibrary;
+			productReference = FBB3A05E1B9D72A30059CED2 /* libHYJCJWLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB3A0561B9D72A30059CED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "皓月君";
+				TargetAttributes = {
+					FBB3A05D1B9D72A30059CED2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = FBB3A0591B9D72A30059CED2 /* Build configuration list for PBXProject "HYJCJWLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBB3A0551B9D72A30059CED2;
+			productRefGroup = FBB3A05F1B9D72A30059CED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB3A05D1B9D72A30059CED2 /* HYJCJWLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB3A05A1B9D72A30059CED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB3A0641B9D72A30059CED2 /* HYJCJWLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBB3A0651B9D72A30059CED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBB3A0661B9D72A30059CED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBB3A0681B9D72A30059CED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FBB3A0691B9D72A30059CED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB3A0591B9D72A30059CED2 /* Build configuration list for PBXProject "HYJCJWLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB3A0651B9D72A30059CED2 /* Debug */,
+				FBB3A0661B9D72A30059CED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB3A0671B9D72A30059CED2 /* Build configuration list for PBXNativeTarget "HYJCJWLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB3A0681B9D72A30059CED2 /* Debug */,
+				FBB3A0691B9D72A30059CED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBB3A0561B9D72A30059CED2 /* Project object */;
+}
